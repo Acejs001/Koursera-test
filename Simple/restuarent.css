@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(58, 2, 2);
+}
+
+.navbar-brand h1{
+    color:rgb(58, 2, 2);
+    font-size:1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+
+
+.container{
+ 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+
+.container a{
+  
+   color: rgb(7, 36, 7);
+}
+
+
+#nav-list a{
+    color: rgb(58, 2, 2);
+    
+}
+#nav-list a:hover{
+    background-color: rgb(226, 220, 186);
+}
+ 
+#phone {
+    margin-top: 5px;
+   
+}
+ 
+#phone a{
+text-align: right;
+padding-bottom: 0;
+}
+#phone div{
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+h5{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+    text-decoration: none;
+}
+
+#menu-tile:hover, #speacials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px #cccccc;
+    
+}
+#tiles-list{
+    text-decoration: none;
+}
+
+#comments{
+    font-style: italic;
+    color: #fff;
+}
+
+#comments p:nth-child(2){
+    margin-top: 25px;
+
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#hours > span, #hours > span {
+    font-size: 1.3em;
+}
+
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#footer-pnt{
+    color: #fff;
+   
+}
+#footer-pnt section{
+    margin-bottom: 30px;
+   
+
+}
+#footer-pnt section:nth-child(3){
+    margin-bottom: 0;
+}
+#footer-pnt section hr{
+ width: 50%;
+}
